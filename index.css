@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+}
+.logo{
+    padding: 2.5vh 4%;
+}
+span{
+    color: rgb(23, 88, 10);
+}
+nav{
+    padding: 3.6vh;
+    display: flex;
+}
+nav a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.35em;
+    font-weight: 700;
+}
+.nav_links::after{
+    margin: 5px auto;
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    transition: 0.25s;
+}
+.nav_links:hover::after{
+    width: 100%;
+}
+#HOME{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./Untitled\ design.gif);
+    background-size: cover;
+}
+#HOME p{
+font-size: 50px;
+padding: 30px 100px 30px 100px;
+}
+#HOME .first{
+padding-top: 150px;
+}
+
+
+
+
+
+
+#ABOUT_ME{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./TRISHANT.gif) ;
+    background-size: cover;
+    text-align: center;
+}
+#ABOUT_ME h2{
+font-size: 3.5em;
+padding: 20px;
+}
+#ABOUT_ME p{
+    padding: 20px 10%;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+#SKILLS{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./TRISHANT\ \(1\.gif);
+    background-size: cover;
+}
+#SKILLS h2{
+    padding: 30px;
+    font-size: 4rem;
+    padding-left: 10%;
+}
+#SKILLS ul{
+    padding: 30px;
+    font-size: 2rem;
+    padding-left: 10%;
+}
+
+#CONTACT_ME{
+    width: 100%;
+    height: 120vh;
+    background-image: url(./TRISHANT4.gif);
+    background-size: cover;
+}
